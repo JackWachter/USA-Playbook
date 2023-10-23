@@ -1,15 +1,5 @@
 # Linux privilege escalation
 
-## Table of Content
-- [Abusing SUID/GUID files](#abusing-suidguid-files)
-- [Finding writeable files](#finding-writeable-files)
-- [Exploiting a writeable /etc/passwd](#exploiting-a-writeable-etcpasswd)
-- [Escaping executables](#escaping-executables)
-- [Exploiting Crontab](#exploiting-crontab)
-- [Exploiting the PATH variable](#exploiting-the-path-variable)
-- [Checking for kernel exploits](#checking-for-kernel-exploits)
-- [Further learing](#further-learing)
-
 ## Abusing SUID/GUID files
 
 - SUID: `rws-rwx-rwx`

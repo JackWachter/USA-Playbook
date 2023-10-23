@@ -1,26 +1,4 @@
-# Finding Vulns with NMAP
-
-## Port 80/443
-
-### Enumerate directories on a web server
-
-```bash
-nmap -sV --script=http-enum <ip>
-```
-
-### Attempt a pasword brute-forcing against an http form-based authentication
-
-```bash
-nmap --script http-brute -p 80 <ip>
-```
-
-## Port 445 (Samba)
-
-### Enumerate usernames using the finger service
-
-```bash
-nmap --script smb-enum-users.nse -p445 <host>
-```
+## Port 21 (FTP)
 
 ### Check for FTP anonymous login
 

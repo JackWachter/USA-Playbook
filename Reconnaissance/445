@@ -1,0 +1,9 @@
+# Port 445 (Samba)
+
+## NMAP
+
+### Enumerate usernames using the finger service
+
+```bash
+nmap --script smb-enum-users.nse -p445 <ip>
+```

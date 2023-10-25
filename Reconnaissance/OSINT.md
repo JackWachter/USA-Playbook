@@ -15,3 +15,7 @@ modules search <module name>
 marketplace install <module name>
 ```
 
+## Using a Module
+```bash
+module load <module name>
+```

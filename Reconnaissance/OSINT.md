@@ -19,3 +19,13 @@ marketplace install <module name>
 ```bash
 module load <module name>
 ```
+
+### Set Options
+```bash
+options set <option> <value>
+```
+
+### Run module
+```bash
+run
+```

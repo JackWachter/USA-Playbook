@@ -22,3 +22,5 @@ curl -L https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas
 [winpeas download](https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS)
 
 ### use WADComs to exploit whatever winpeas found
+
+## this also has anything you may need [hacktricks.xyz](https://book.hacktricks.xyz/)

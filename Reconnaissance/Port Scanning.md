@@ -14,6 +14,11 @@ nmap <ip>
 nmap -sV -A <ip>
 ```
 
+### Casey's better nmap scan that I use everytime
+```bash
+nmap -sC -sV -oN scan.nmap <ip>
+```
+
 ## Metasploit
 
 ### NMAP Scan

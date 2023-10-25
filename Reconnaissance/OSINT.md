@@ -7,7 +7,7 @@ recon-ng
 
 ## Searching for Modules
 ```bash
-search modules <module name>
+modules search <module name>
 ```
 
 ## Installing Modules

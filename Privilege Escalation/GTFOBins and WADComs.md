@@ -1,5 +1,6 @@
 # Linux - GTFOBins
 ## [GTFOBins](https://gtfobins.github.io/gtfobins/bash/#sudo)
+### if there is remote code execution you can use gtfobins for reverse shells
 ### finding binaries with SUID
 ```bash
 find / -perm /4000 2> /dev/null

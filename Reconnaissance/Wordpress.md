@@ -1,1 +1,4 @@
-wpscan
+#Scanning
+```bash
+wpscan --url <url>
+```

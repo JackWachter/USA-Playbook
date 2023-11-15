@@ -17,27 +17,42 @@
 		b. auth     requisite  pam_securetty.so
 
 	f. Su (add these)
+
 		a. session  required   pam_limits.so
+
 		b. auth        requisite   pam_wheel.so group=wheel debug
+
 	g. Common session (add this)
+
 		a. session    optional     pam_tmpdir.so
+
 5. Delete media
 6. Check VISUDO dir
 7. Services | service --status-all  netstat -tulpn  apt-get remove pure-ftpd
 8. Firefox
 9. Check the /etc/passwd file
+    
 	a. Look for any repeating UID or GID
+
 	b. Make sure no programs have a /bin/sh or /bin/bash
+
 	c. Only root should have a UID and GID of 0
-10. Check the /etc/group file and manage the groups
-	Add all the admins to the sudo and adm group 
-11. Everything connected to the wanted services (perms, data, admin priv, users, config)
+
+11. Check the /etc/group file and manage the groups
+    
+	Add all the admins to the sudo and adm group
+
+13. Everything connected to the wanted services (perms, data, admin priv, users, config)
+
 	a. File configs
+
 	b. Readme
+
 	c. File perms
-12. Unwanted apps (dpkg, software center, share)
-13. Plain text documents (ls -R)
-14. Python backdoors
+
+15. Unwanted apps (dpkg, software center, share)
+16. Plain text documents (ls -R)
+17. Python backdoors
 
 
 Lock Grub:

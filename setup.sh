@@ -9,6 +9,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githu
 sudo apt update
 sudo apt install -y gh
 gh auth login --hostname github.com --git-protocol https
+
 #Download scanners
 cd ~/workspace
 gh repo clone https://github.com/klsecservices/s7scan.git

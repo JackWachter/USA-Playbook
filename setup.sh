@@ -1,4 +1,5 @@
 #!/bin/bash
+#For Linux Environment
 #Setup github
 cd ~
 mkdir workspace 2> /dev/null

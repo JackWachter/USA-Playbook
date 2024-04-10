@@ -1,6 +1,6 @@
 # USA Red Teaming Playbook
 ### Overview
-Cyber playbook for CTF/RedTeam style competitions. Created for Loyola Blakefield Team USA in the Cyber Battle of Nordic-Baltics. This is a simple step-by-step for attacking vulnerable machines. 
+Cyber playbook for CTF/RedTeam style competitions. Created for Loyola Blakefield Team USA in the Cyber Battle of Nordic-Baltics. This is a basic step-by-step for attacking vulnerable machines. 
 Starting with section 1, the file naming convention is based on port numbers.
 
 
